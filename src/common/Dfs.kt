@@ -1,3 +1,5 @@
+package common
+
 import java.util.*
 
 fun dfs(grid: Array<Array<Int>>) {

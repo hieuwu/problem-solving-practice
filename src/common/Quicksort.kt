@@ -1,3 +1,5 @@
+package common
+
 fun quickSort(arr: Array<Int>, left: Int, right: Int) {
     if (left > right) return
 

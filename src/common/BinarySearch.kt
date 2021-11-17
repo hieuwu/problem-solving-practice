@@ -1,3 +1,5 @@
+package common
+
 //Count the number of elements which is less than key
 fun countElementLessThanKey(arr: Array<Int>, key: Int): Long {
     var count = 0L;

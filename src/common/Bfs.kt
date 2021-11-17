@@ -1,3 +1,5 @@
+package common
+
 import java.util.*
 fun bfs(grid: Array<Array<Int>>) {
     var dirs = intArrayOf(0, 1, 0, -1, 0)

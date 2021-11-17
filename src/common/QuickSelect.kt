@@ -1,3 +1,5 @@
+package common
+
 fun quickSelect(arr: Array<Int>, left: Int, right: Int, kIndex: Int) {
     if (kIndex !in left..right) return
 
