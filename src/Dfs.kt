@@ -40,11 +40,9 @@ fun dfsV2(grid: Array<Array<Int>>, row: Int, col: Int, visit: Array<Array<Boolea
     }
 }
 
-
-var M = 3
-var N = 3
-
 fun isValid(visit: Array<Array<Boolean>>, row: Int, col: Int): Boolean {
+    var M = visit.size
+    var N = visit[0].size
     if (row < 0 || col < 0 || row >= M || col >= N) {
         return false
     }
