@@ -1,4 +1,4 @@
-package leetcode.arrays
+package leetcode.binarysearch
 
 fun searchInsert(nums: IntArray, target: Int): Int {
     var left = 0
